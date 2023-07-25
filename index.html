@@ -21,11 +21,10 @@
 
     <!-- header section start here -->
     <header>
-        <!-- navbar section start here -->
 
         <!-- navbar section start here -->
         <nav
-            class="container justify-center md:bg-[#F85559] md:mx-auto md:rounded-full flex md:flex-col xl:flex-row md:justify-between items-center py-4 md:mt-5 md:pl-10">
+            class="navbar max-w-[90%] justify-center md:bg-[#F85559] md:mx-auto md:rounded-full flex md:flex-col xl:flex-row md:justify-between items-center py-4 md:mt-5 md:pl-10">
             <ul class="hidden md:flex md:visible md:text-white">
                 <li class="pl-20"><a class="text-xl" href="">Home</a></li>
                 <li class="pl-20"><a class="text-xl" href="">About Us</a></li>
@@ -36,18 +35,57 @@
                 <img src="./images/logo.png" alt="">
                 <p class="text-3xl">Fruit Burst</p>
             </div>
-            <div class="hidden md:flex items-center md:visible">
+            <div class="hidden md:flex items-center md:visible md:mr-16 2xl:mr-36">
                 <input class="md:w-60 rounded-full py-2" type="text" name="" id="">
                 <i class="fa-solid fa-magnifying-glass -ml-9 cursor-pointer"></i>
             </div>
             <div class="flex justify-end w-[35%] md:hidden">
                 <i class="fa-solid fa-bars text-3xl"></i>
             </div>
-            <nav />
-            <!-- navbar section end here -->
+        </nav>
+        <!-- navbar section end here -->
 
-
-
+        <!-- banner section start here -->
+        <div class="max-w-[90%] mx-auto mt-20 h-auto">
+            <div class="carousel max-w-full">
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./images/banner4.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                    <div class="absolute text-white left-[50%] top-[30%] text-center -translate-x-1/2">
+                        <h1 class="text-6xl font-bold">Exotic tastes at your doorstep</h1>
+                        <p class="text-2xl py-6">We supply highly quality organic products</p>
+                        <button
+                            class="btn bg-[#F85559] outline-none border-none text-white rounded-md hover:text-black">Shop
+                            Now</button>
+                    </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./images/banner2.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./images/banner3.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./images/banner1.png" class="w-full" />
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- banner section end here -->
     </header>
     <!-- header section end here -->
 
