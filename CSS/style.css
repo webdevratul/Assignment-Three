@@ -1,6 +1,13 @@
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/* meet section */
+.meet-section{
+    background-image: url(../images/banner1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
 
